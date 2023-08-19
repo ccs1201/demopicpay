@@ -25,8 +25,7 @@ public class UsuarioController {
     @PostMapping
     @ResponseStatus(HttpStatus.OK)
     public Usuario save(@RequestBody UsuarioDTO usuario) {
-        Usuario u = usuarioService.save(usuario.toUsuario());
-        return u;
+        return usuarioService.save(usuario.toUsuario());
     }
 
     @GetMapping
