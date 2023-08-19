@@ -1,4 +1,4 @@
-package br.com.ccs.delivery.core.validations;
+package com.demo.picpay.infra;
 
 import org.springframework.context.MessageSource;
 import org.springframework.context.annotation.Bean;

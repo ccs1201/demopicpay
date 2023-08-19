@@ -1,4 +1,4 @@
-package com.demo.picpay.controler;
+package com.demo.picpay.controler.dto;
 
 import java.math.BigDecimal;
 

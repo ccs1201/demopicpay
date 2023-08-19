@@ -1,6 +1,7 @@
-package com.demo.picpay.domain.usuarios;
+package com.demo.picpay.entities;
 
 
+import com.demo.picpay.entities.TipoUsuario;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
